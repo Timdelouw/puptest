@@ -8,4 +8,4 @@ const app = express()
 app.use("/", homeController)
 app.use("/api/scrape", scrapeController)
 
-app.listen(8080, () => console.log(`Express and Puppeteer listening`))
+app.listen(80, () => console.log(`Express and Puppeteer listening`))
